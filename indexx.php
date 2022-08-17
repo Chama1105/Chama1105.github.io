@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -96,7 +99,7 @@
                       <p><span class="title-s">Name: </span> <span>Chamathka Addarage</span></p>
                       <p><span class="title-s">Profile: </span> <span>Social Media Strategist / Content Creator</span>
                       </p>
-                      <p><span class="title-s">Email: </span> <span>hello@chamathka.ga</span></p>
+                      <p><span class="title-s">Email: </span> <span>chamathka.addarage@gmail.com</span></p>
                       <p><span class="title-s">Phone: </span> <span>(94) 717410466</span></p>
                     </div>
                   </div>
@@ -278,15 +281,7 @@
           </div>
         </div>
       </div>
-
-  <input type="radio" name="filter" id="all" checked><label for="all">All</label>
-  <input type="radio" name="filter" id="content"><label for="content">Content Creation</label>
-  <input type="radio" name="filter" id="SM"><label for="SM">Social Media Content</label>
-  <input type="radio" name="filter" id="printables"><label for="printables">Printables</label>
-  <input type="radio" name="filter" id="logo"><label for="logo">Logo Designing</label>
-      
-  <div class="row">
-  <figure class="card content">
+      <div class="row">
         <div class="col-md-4">
           <div class="work-box">
             <a href="img/Hiru-Kule-Album.jpg" data-lightbox="gallery-mf">
@@ -311,9 +306,6 @@
             </a>
           </div>
         </div>
-  </figure>
-
-  <figure class="card content">
         <div class="col-md-4">
           <div class="work-box">
             <a href="img/Kaala-Neela-Album-Art.jpg" data-lightbox="gallery-mf">
@@ -338,7 +330,6 @@
             </a>
           </div>
         </div>
-</figure>
         <div class="col-md-4">
           <div class="work-box">
             <a href="img/Expose by Maathra Album Art.jpg" data-lightbox="gallery-mf">
@@ -779,13 +770,13 @@
                     <ul class="list-ico">
                       <li><span class="ion-ios-location"></span> No.88, Rahula Road, Angoda</li>
                       <li><a href=tel:0717410466><span class="ion-ios-telephone"></span> (94) 717410466</a></li>
-                      <li><a href=mailto:hello@chamathka.ga><span class="ion-email"></span> hello@chamathka.ga</a></li>
+                      <li><a href=mailto:chamathka.addarage@gmail.com><span class="ion-email"></span> chamathka.addarage@gmail.com</a></li>
                     </ul>
                   </div>
                   <div class="socials">
                     <ul>
                       <li><a href="https://facebook.com/lakindu.chamathka" target="_ "><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href="https://instagram.com/chamathka.ga" target="_ "><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href="https://instagram.com/chamathka.addarage" target="_ "><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
                       <li><a href="https://www.linkedin.com/in/chamathka05/" target="_ "><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
                       <li><a href="https://wa.me/94717410466" target="_ "><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
                     </ul>
@@ -805,7 +796,7 @@
               <p class="copyright">&copy; Copyright <strong>Chamathka Addarage</strong>. All Rights Reserved</p>
               <div class="credits">
               
-                Designed by <a href="https://chamathka.ga/">Me</a>
+                Designed by <a href="https://chama1105.github.io/">Me</a>
               </div>
             </div>
           </div>
