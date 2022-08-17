@@ -5,7 +5,7 @@ session_start();
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "hello@chamathka.ga";
+    $email_to = "chamathka.addarage@gmail.com";
     $email_subject = "New Inquiry";
 
     function problem($error)
@@ -70,7 +70,7 @@ if (isset($_POST['Email'])) {
     @mail($email_to, $email_subject, $email_message, $headers);
 
 
-    header("Location: https://chamathka.ga#contact");
+    header("Location: https://chama1105.github.io/#contact");
 
 
 }
