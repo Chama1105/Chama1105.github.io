@@ -828,4 +828,7 @@ session_start();
 
 </body>
 
+<?php
+session_end();
+?>
 </html>
