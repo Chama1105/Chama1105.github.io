@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -828,7 +825,4 @@ session_start();
 
 </body>
 
-<?php
-session_end();
-?>
 </html>
